@@ -6,7 +6,7 @@ Some basic functions I put together from stackoverflow and google-ing mainly.
 
 - **clearSheets.bas** deletes every row of the sheet starting from the 5th.
 
-- **email.bas** An email opens in Outlook, fully composed, with the excel file attached. You'll just have to glance at it, and press 'Send'. I mapped this to "Ctrl+E" for more elegant magic.
+- **email.bas** An email opens in Outlook, fully composed, with the excel file attached. You'll just have to glance at it, and press 'Send'. When I used this, I mapped it to "Ctrl+E" for more elegant magic.
 
 - **importCSV.bas** imports a CSV file to a sheet.
 

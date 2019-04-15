@@ -1,6 +1,6 @@
 # VBA
 
-Some basic functions I put together from stackoverflow and google-ing mainly.
+Some basic functions I put together from stackoverflow and googling mainly.
 
 - **backup.bas** creates a copy of the file and adds a timestamp to the filename of the copy. I used it when I ran a huge macro, that took 3 minutes to process thousands of csv files, and was constantly afraid I'd loose the file. This was my quick and dirty attempt at version control for that one instance.
 

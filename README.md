@@ -1,11 +1,13 @@
 # VBA
 
-Some basic functions I put together from stackoverflow mainly.
+Some basic functions I put together from stackoverflow and google-ing mainly.
 
-backup.bas copies the whole file and adds a timestamp to the filename of the copy.
+- **backup.bas** creates a copy of the file and adds a timestamp to the filename of the copy. I used it when I ran a huge macro, that took 3 minutes to process thousands of csv files, and was constantly afraid I'd loose the file. This was my quick and dirty attempt at version control for that one instance.
 
-clearSheets.bas deletes every row of the sheet starting from the 5th.
+- **clearSheets.bas** deletes every row of the sheet starting from the 5th.
 
-importCSV.bas imports a CSV file to a sheet. I got it from stackoverflow, but use it often enough, so I thought I'll include it.
+- **email.bas** An email opens in Outlook, fully composed, with the excel file attached. You'll just have to glance at it, and press 'Send'. I mapped this to "Ctrl+E" for more elegant magic.
 
-sort.bas sorts specific rows by two different keys in the appropriate order of priorities, and then renumbers the index column.
+- **importCSV.bas** imports a CSV file to a sheet.
+
+- **sort.bas** sorts specified rows by two different keys in the appropriate order of priorities, and then renumbers the index column.

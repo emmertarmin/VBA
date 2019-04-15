@@ -1,6 +1,7 @@
 # VBA
 
 Some basic functions I put together from stackoverflow and googling mainly.
+To use them, first you have to enable "Developer Tab" in Excel, then go to Developer Tab -> Visual Basic (VBA), open a new module on the left and paste the code inside the module. Excel needs to have macros enabled for these functions to run.
 
 - **backup.bas** creates a copy of the file and adds a timestamp to the filename of the copy. I used it when I ran a huge macro, that took 3 minutes to process thousands of csv files, and was constantly afraid I'd loose the file. This was my quick and dirty attempt at version control for that one instance.
 

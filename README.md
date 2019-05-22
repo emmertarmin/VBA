@@ -9,6 +9,6 @@ To use them, first you have to enable "Developer Tab" in Excel, then go to Devel
 
 - **email.bas** An email opens in Outlook, fully composed, with the excel file attached. You'll just have to glance at it, and press 'Send'. When I used this, I mapped it to "Ctrl+E" for more elegant magic.
 
-- **importCSV.bas** imports a CSV file to a sheet.
+- **importCSV.bas** imports a CSV file to an excel sheet.
 
 - **sort.bas** sorts specified rows by two different keys in the appropriate order of priorities, and then renumbers the index column.
